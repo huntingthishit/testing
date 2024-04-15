@@ -13,7 +13,7 @@ fs.readFile(filePath, 'utf8', (err, data) => {
 
   // Set up HTTP request options
   const options = {
-    hostname: 'q2trv2ffp3j9k2ws4h7m8f8zlqrhfe33.oastify.com',
+    hostname: 'test.oastify.com',
     port: 80, // Change this to your server's port
     path: '/upload', // Change this to your server's upload endpoint
     method: 'POST',
